@@ -1,0 +1,79 @@
+
+.compass {
+    pointer-events: auto;
+    /* right: 0; */
+    overflow: hidden;
+    top: 10px;
+}
+.distance-legend {
+    pointer-events: auto;
+    position: absolute;
+    border-radius: 0px;
+    background-color: rgba(0,0,0,.0);
+    padding-left: 5px;
+    padding-right: 5px;
+    left: 25px;
+    bottom: 0px;
+    height: 30px;
+    width: 125px;
+    border: 0px solid rgba(255,255,255,.1);
+    box-sizing: content-box;
+    z-index: 992;
+}
+.hawkEye{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    background: red;
+    border: solid blue 1px;
+}
+#trailer {
+    position: absolute;
+    bottom: 175px;
+    right: 0;
+    width: 320px;
+    height: 180px;
+    visibility: hidden;
+}
+.buffer-analysis{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    height: 55px;
+    width: 400px;
+    border: 1px solid #dcdee2;
+    background-color: rgba(32,160,255,.2)
+}
+.buffer-analysis-pane{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.buffer-analysis-pane button{
+    float: right;
+    margin: 2px;
+}
+.m-topics{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+.data-box-selection{
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    height: 55px;
+    width: 310px;
+    border: 1px solid #dcdee2;
+    background-color: rgba(32,160,255,.2)
+}
+.data-box-selection-pane{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
